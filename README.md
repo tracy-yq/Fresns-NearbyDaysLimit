@@ -1,2 +1,14 @@
-# Fresns-NearbyDaysLimit
-When viewing nearby content, only content within the specified number of days is displayed.
+# 附近内容天数限制
+
+查看附近内容时，仅输出设置天数内的内容。
+
+## 插件安装
+
+- 使用标识名安装: `NearbyDaysLimit`
+- 使用指令安装: `php artisan market:require NearbyDaysLimit`
+
+## 使用说明
+
+- 插件启用后，在插件设置页可以配置天数限制。
+- 在 Fresns 内容扩展中配置成本插件，由本插件接管附近内容的接口处理。
+    - 配置位置：后台 -> 扩展 -> 内容处理扩展 -> 内容列表 -> 附近范围的帖子或评论
