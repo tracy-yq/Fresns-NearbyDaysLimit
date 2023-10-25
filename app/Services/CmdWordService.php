@@ -73,7 +73,7 @@ class CmdWordService
         $paginate->withPath('/'.\request()->path())->withQueryString();
 
         return $this->success([
-            'paginate' => [
+            'pagination' => [
                 'total' => $paginate->total(),
                 'pageSize' => $paginate->perPage(),
                 'currentPage' => $paginate->currentPage(),
@@ -158,7 +158,7 @@ class CmdWordService
         $paginate->withPath('/'.\request()->path())->withQueryString();
 
         return $this->success([
-            'paginate' => [
+            'pagination' => [
                 'total' => $paginate->total(),
                 'pageSize' => $paginate->perPage(),
                 'currentPage' => $paginate->currentPage(),

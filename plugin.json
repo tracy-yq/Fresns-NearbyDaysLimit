@@ -4,7 +4,7 @@
     "description": "When viewing nearby content, only content within the specified number of days is displayed.",
     "author": "Tracy",
     "authorLink": "https://marketplace.fresns.com/developer/tracy",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "scene": [
         "extendData"
     ],
